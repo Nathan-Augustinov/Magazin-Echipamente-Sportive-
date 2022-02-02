@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+    <GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" prefHeight="400" prefWidth="600"
+              vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+
+              fx:controller="org.loose.fis.proiect.controllers.ManagerPageController">
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="0">
+<Button fx:id="productslistbutton" onAction="#handleProductsListAction" text="See products list"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="1">
+<Button fx:id="addproductsbutton" onAction="#handleAddProductsAction" text="Add Products"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="2">
+<Button fx:id="deleteproductsbutton" onAction="#handleDeleteProductsAction" text="Delete Products"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="3">
+<Button fx:id="editproductsbutton" onAction="#handleEditProductsAction" text="Edit Products"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="4">
+<Button fx:id="seeallordersbutton" onAction="#handleSeeAllOrdersAction" text="See all orders"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="5">
+<Button fx:id="clientdetailsbutton" onAction="#handleClientDetailsAction" text="See client details"/>
+    </HBox>
+
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="8">
+        <Button fx:id="logoutbutton" onAction="#handleLogoutManagerAction" text="Logout"/>
+    </HBox>
+
+
+        </GridPane>

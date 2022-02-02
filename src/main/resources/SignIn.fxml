@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets.*?>
+
+<?import javafx.scene.text.Text?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" prefHeight="400" prefWidth="600"
+          vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+
+        fx:controller="org.loose.fis.proiect.controllers.SignInController">
+
+
+<Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+<TextField fx:id="usernameField" id="username" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+<Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+
+<PasswordField fx:id="passwordField" id="password" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="12">
+        <Button fx:id="signinbutton" id="signinbutton" onAction="#handleSignInAction" text="Sign In" prefWidth="90" prefHeight="70"/>
+    </HBox>
+
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="12">
+        <Button fx:id="backbutton" id="backbutton" onAction="#handleBackAction" text="Back"/>
+    </HBox>
+
+
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="30.0" top="25.0"/>
+    </padding>
+
+
+    <Text fx:id="SignInMessage" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+
+</GridPane>

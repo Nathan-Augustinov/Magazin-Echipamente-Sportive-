@@ -93,3 +93,6 @@ If you sign in as a manager, you should see the next page:
 <b>As a manager</b>, you can see the client details.
 
 <b>As a manager</b>, you can log out.
+
+## Credits
+This project has been created by me and <a href="https://github.com/paulalexapaul"> my classmate </a>.
